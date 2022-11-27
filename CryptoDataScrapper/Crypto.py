@@ -17,6 +17,7 @@ headers = {
 }
 
 tables=[]
+os.system('cls')
 print(logo)
 Pages = int(input("-> How many Pages you want to Extract 1-133: "))
 if Pages > 0 or Pages < 133:
